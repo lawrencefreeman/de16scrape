@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker image build -t lawrencefreemankubrick/blatest .
+  - docker container run lawrencefreemankubrick/blatest
